@@ -1,0 +1,93 @@
+{
+  "infoPage1Text1" : "Hoşgeldiniz! Başlamak için",
+  "infoPage1Text2" : "Bluetooth ile şarj cihazını bulun ",
+  "infoPage1Text3" : "ve eşleştirin.",
+  "infoPage2Text1" : "Type Seçimiyle",
+  "infoPage2Text2" : "Akım Ayarlayın",
+  "infoPage2Text3" : "Aracınızı şarj etmek istediğiniz akımı seçerek ",
+  "infoPage2Text4" : "işleme başlayabilirsiniz.",
+  "dataWaiting": "Veri Bekleniyor",
+  "socketStatus": "Şarj Soketi Bağlı",
+  "socketDisconnected": "Soket Bağlantısı Kesildi",
+  "waitingStartCommand": "Başlat Komutu Bekleniyor",
+  "preparingForCharging": "Şarj İçin Hazırlanıyor",
+  "pressStopButtonToFinish": "Bitirmek İçin Stop Tuşuna Basın",
+  "successfulGFCI": "GFCI Başarılı ",
+  "failedGFCI": "GFCI Başarısız",
+  "noData": "Veri Yok",
+  "totalEnergy" : "Tüketilen Toplam Enerji",
+  "voltage" : "Voltaj",
+  "scanBle" : "Cihaz Bağlantısı İçin Butona Tıklayın.",
+  "availableDevices" : "Uygun Cihazlar",
+  "scanForDevices" : "Cihazları Tara",
+  "currentPower" : "Anlık Güç",
+  "successMessage" : "İşlem Başarılı!",
+  "resetMessage" :"Reset Komutu Gönderildi.",
+  "stopMessage" : "Durdur Komutu Gönderildi.",
+  "startMessage": "Başlat Komutu Gönderildi.",
+  "commandFailedMessage" : "Komut Gönderilemedi. Bluetooth bağlantınızı kontrol edin.",
+  "failedMessage" : "Bağlantı başarısız",
+  "connectionSuccessMessage" : "Bağlantı Başarılı",
+  "amperConditionMessage": "Akım değişimi için lütfen şarj işlemini sonlandırın ve tekrar deneyin",
+  "connectSuccessMessage" : "Bağlantı Başarılı",
+  "bleDeviceNotFoundMessage" : "Cihaz bulunamadı.Tekrar deneyin!",
+  "bleDevicePieceMessage" : " Cihaz bulundu.",
+  "showInfoAgainText" : "Bilgilendirme Sayfalarını Tekrar Görmek İstermisiniz?",
+  "yes" : "Evet",
+  "no" : "Hayır",
+  "faseText1" : "Faz Bilgisini Seç",
+  "monoFaseButtonText" : "Tek Faz",
+  "threeFaseButtonText" : "Üç Faz",
+  "faseInfoText" : "Bireysel kullanıcılar Tek Faz bilgisini seçmelidir.",
+
+  "BluetoothPage": {
+    "title" : "Bluetooth Cihazlarını Tara",
+    "scanButtonText": "Cihazları Tara",
+    "permissionButtonText": "İzin Ver",
+    "bluetoothDialog" : {
+      "title": "Cihaza Bağlan",
+      "altTitle" : "Cihazın açık olduğundan emin olun",
+      "searcingResult": "      Arama Sonuçları",
+      "button" : "Kapat"
+
+    }
+  },
+  "HomePage": {
+  "startButtonText": "Şarjı Başlat",
+  "stopButtonText": "Şarjı Durdur",
+  "setAmperText": "Şarj Akımını Ayarla",
+    "HomeShowDialog" : {
+      "faseTitle": "Faz Bilgisini Seç",
+      "monoFaseButtonText": "Tek Faz",
+      "thirdFaseButtonText" : "Üç Faz",
+      "modeTitle": "Şarj Modu Seç",
+      "plugModeText" : "Plug and charge",
+      "plugModeDescription" : "İlk şarjı uygulamadan başlatın. Sonraki işlemler kabloyu taktığınızda otomatik başlar.",
+      "controlModeText" : "Charge control",
+      "controlModeDescription" : "Şarj işlemini sadece uygulamadan başlatabilirsiniz.",
+      "acceptButtonText" : "Onayla"
+    }
+},
+  "BluetoothUIFeedbackMessages": {
+    "deviceNotFound": "Cihaz bulunamadı.Tekrar deneyin!",
+    "scanStarted": "Bluetooth cihazları taranıyor...",
+    "connectionSuccess": "Cihaz başarıyla bağlandı.",
+    "connectionFailed": "Bağlantı başarısız oldu.",
+    "bluetoothOff": "Lütfen Bluetooth'u açın.",
+    "connectSuccessMessage" : "Bağlantı Başarılı",
+    "connectFailureMessage" : "Cihaza bağlanırken bir sorun oluştu. Lütfen tekrar deneyin.",
+    "localPermissionMessage" :"Lütfen Telefonun Konum Özelliğini Açın",
+    "blePermissionMessage" :"Lütfen Telefonun Bluetooth Özelliğini Açın",
+    "connectingMessage" : "Cihazına Bağlantı işlemi başladı...",
+    "bleDisconnectMessage" : "Bluetooth bağlantısı koptu.Uygulamayı tekrar başlatın.",
+    "chargeModeStopErrorMessage" : "Lütfen şarj işlemini araçtan sonlandırın."
+  },
+  "HomeUIFeedbackMessages" : {
+    "none": "Veri Bekleniyor",
+    "chargeSocketConnected": "Şarj Soketi Bağlandı",
+    "startCommandSent": "Başla Komutu Gönderildi",
+    "vehicleCharging": "Araç Şarj Ediliyor",
+    "socketNotConnect": "Soketi Bağlayın",
+    "amperConditionMessage": "Akım değişimi için lütfen şarj işlemini sonlandırın ve tekrar deneyin"
+  }
+}

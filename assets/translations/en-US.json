@@ -1,0 +1,92 @@
+{
+        "infoPage1Text1": "Welcome! To get started",
+        "infoPage1Text2": "find the charger via Bluetooth ",
+        "infoPage1Text3": "and pair it.",
+        "infoPage2Text1": "With Type Selection",
+        "infoPage2Text2": "Adjust Current",
+        "infoPage2Text3": "By selecting the current you want to charge your vehicle, ",
+        "infoPage2Text4": "you can start the process.",
+        "dataWaiting": "Waiting for Data",
+        "socketStatus": "Charging Socket Connected",
+        "socketDisconnected": "Socket Disconnected",
+        "waitingStartCommand": "Waiting for Start Command",
+        "preparingForCharging": "Preparing for Charging",
+        "pressStopButtonToFinish": "Press Stop Button to Finish",
+        "successfulGFCI": "GFCI Successful",
+        "failedGFCI": "GFCI Failed",
+        "noData": "No Data",
+        "totalEnergy": "Total Energy Consumed",
+        "voltage": "Voltage",
+        "scanBle": "Click the button to connect to a device.",
+        "availableDevices": "Available Devices",
+        "scanForDevices": "Scan for Devices",
+        "currentPower": "Current Power",
+        "successMessage": "Operation Successful!",
+        "resetMessage": "Reset Command Sent.",
+        "stopMessage": "Stop Command Sent.",
+        "startMessage": "Start Command Sent.",
+        "commandFailedMessage": "Command Failed. Please check your Bluetooth connection.",
+        "failedMessage": "Connection Failed",
+        "connectionSuccessMessage": "Connection Successful",
+        "amperConditionMessage": "Please stop the charging process to change the current and try again.",
+        "connectSuccessMessage": "Connection Successful",
+        "bleDeviceNotFoundMessage": "Device not found. Please try again!",
+        "bleDevicePieceMessage": " Device found.",
+        "showInfoAgainText": "Would you like to see the information pages again?",
+        "yes": "Yes",
+        "no": "No",
+        "faseText1": "Select Phase Information",
+        "monoFaseButtonText": "Single Phase",
+        "threeFaseButtonText": "Three Phase",
+        "faseInfoText": "Individual users should select Single Phase.",
+
+        "BluetoothPage": {
+                "title": "Scan Bluetooth Devices",
+                "scanButtonText": "Scan Devices",
+                "permissionButtonText": "Grant Permissions",
+                "bluetoothDialog": {
+                        "title": "Connect to Device",
+                        "altTitle": "Make sure the device is turned on",
+                        "searchingResult": "      Search Results",
+                        "button": "Close"
+                }
+
+        },
+        "HomePage": {
+                "startButtonText": "Start Charging",
+                "stopButtonText": "Stop Charging",
+                "setAmperText": "Set Charging Current",
+                "HomeShowDialog": {
+                        "faseTitle": "Select Phase Information",
+                        "monoFaseButtonText": "Single Phase",
+                        "thirdFaseButtonText": "Three Phase",
+                        "modeTitle": "Select Charging Mode",
+                        "plugModeText": "Plug and Charge",
+                        "plugModeDescription": "Start the first charge from the app. Subsequent operations will start automatically when the cable is plugged in.",
+                        "controlModeText": "Charge Control",
+                        "controlModeDescription": "You can only start the charging process from the app.",
+                        "acceptButtonText": "Confirm"
+                }
+        },
+        "BluetoothUIFeedbackMessages": {
+                "deviceNotFound": "Device not found. Please try again!",
+                "scanStarted": "Scanning for Bluetooth devices...",
+                "connectionSuccess": "Device connected successfully.",
+                "connectionFailed": "Connection failed.",
+                "bluetoothOff": "Please turn on Bluetooth.",
+                "connectSuccessMessage": "Connection Successful",
+                "connectFailureMessage": "An issue occurred while connecting to the device. Please try again.",
+                "localPermissionMessage": "Please enable your phone's Location feature.",
+                "blePermissionMessage": "Please enable your phone's Bluetooth feature.",
+                "connectingMessage": "Connecting to the device...",
+                "bleDisconnectMessage": "Bluetooth connection lost. Restart the application."
+        },
+        "HomeUIFeedbackMessages": {
+                "none": "Waiting for Data",
+                "chargeSocketConnected": "Charging Socket Connected",
+                "startCommandSent": "Start Command Sent",
+                "vehicleCharging": "Vehicle Charging",
+                "socketNotConnect": "Connect the Socket",
+                "amperConditionMessage": "Please stop the charging process to change the current and try again."
+        }
+}
